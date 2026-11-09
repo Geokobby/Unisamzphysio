@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav{ 
+    /* border: solid 1px black; */
+      display: flex; 
+    justify-content: space-between;
+    padding: 2.5em 10em; 
+    
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav_listLink{
+   text-decoration: none;
+   
+}
+
+.listlink{
+    padding-inline: 1.5em;
+}
