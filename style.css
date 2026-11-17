@@ -10,8 +10,9 @@
     /* border: solid 1px red;
     background-color: red; */
 background-image: url(images/ale-romo-CLiwQXx7kT8-unsplash.jpg);
-    background-clip: border-box;
+    padding-top: 2.5em;
     background-size: cover;
+    background-position: center;
    
 }
 
@@ -20,8 +21,8 @@ background-image: url(images/ale-romo-CLiwQXx7kT8-unsplash.jpg);
       display: flex; 
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em 3em; 
-    margin: 2.5em 10em;
+    padding: 1em 3em; 
+    margin-inline: 10em;
     border-radius: 25em;
     background-color: #D9D9D9;
     font-family: sans-serif;
